@@ -1,0 +1,31 @@
+{
+  "name": "loginapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khizer",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "morgan": "^1.9.0",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "winston": "^2.4.2"
+  }
+}
